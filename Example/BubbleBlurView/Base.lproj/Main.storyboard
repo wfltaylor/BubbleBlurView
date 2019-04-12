@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
-    <device id="retina4_7" orientation="portrait">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
+    <device id="retina5_9" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -18,13 +18,56 @@
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QIY-W4-O4n">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kEo-Mu-Hlv">
+                                <rect key="frame" x="127.66666666666669" y="708" width="120" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="120" id="52x-ro-5Vi"/>
+                                    <constraint firstAttribute="height" constant="40" id="vfq-cJ-1ve"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
+                                <state key="normal" title="Hide Labels">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="hideLabelsTap:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="doa-o0-2qp"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.75" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BubbleBlurView" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" translatesAutoresizingMaskIntoConstraints="NO" id="Qfp-N6-84K">
+                                <rect key="frame" x="16" y="64" width="343" height="50.666666666666657"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="42"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="QIY-W4-O4n" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="0Vy-BH-oZd"/>
+                            <constraint firstItem="Qfp-N6-84K" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="ADG-1A-7fS"/>
+                            <constraint firstItem="QIY-W4-O4n" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="Nea-mc-xwQ"/>
+                            <constraint firstAttribute="bottom" secondItem="QIY-W4-O4n" secondAttribute="bottom" id="RWJ-bu-CTn"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="kEo-Mu-Hlv" secondAttribute="bottom" constant="30" id="fAd-RA-ZtN"/>
+                            <constraint firstItem="Qfp-N6-84K" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="fxk-xa-15T"/>
+                            <constraint firstItem="Qfp-N6-84K" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="20" id="sIy-VA-CGJ"/>
+                            <constraint firstAttribute="trailing" secondItem="QIY-W4-O4n" secondAttribute="trailing" id="vRr-nF-WsI"/>
+                            <constraint firstItem="kEo-Mu-Hlv" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="zpt-3L-CAj"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="backgroundView" destination="QIY-W4-O4n" id="xrL-g1-N57"/>
+                        <outlet property="hideButton" destination="kEo-Mu-Hlv" id="0f4-Ev-HQv"/>
+                        <outlet property="titleLabel" destination="Qfp-N6-84K" id="fXt-ll-Amr"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="133.00492610837438"/>
         </scene>
     </scenes>
 </document>

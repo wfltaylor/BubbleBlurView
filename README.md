@@ -1,15 +1,18 @@
-# BubbleBlurView
+![BubbleBlurView](https://raw.githubusercontent.com/wfltaylor/BubbleBlurView/master/logo.png)
 
-[![CI Status](https://img.shields.io/travis/wfltaylor@gmail.com/BubbleBlurView.svg?style=flat)](https://travis-ci.org/wfltaylor@gmail.com/BubbleBlurView)
 [![Version](https://img.shields.io/cocoapods/v/BubbleBlurView.svg?style=flat)](https://cocoapods.org/pods/BubbleBlurView)
 [![License](https://img.shields.io/cocoapods/l/BubbleBlurView.svg?style=flat)](https://cocoapods.org/pods/BubbleBlurView)
 [![Platform](https://img.shields.io/cocoapods/p/BubbleBlurView.svg?style=flat)](https://cocoapods.org/pods/BubbleBlurView)
+
+BubbleBlurView is a UIView which has a blurred bubble effect that somewhat resembles the Apple Card.
 
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
+## Getting Started
+
+William Taylor
 
 ## Installation
 
@@ -20,9 +23,14 @@ it, simply add the following line to your Podfile:
 pod 'BubbleBlurView'
 ```
 
+## Pitfalls
+
+* Low Performance (will be soon updated to use SpriteKit to remedy)
+* Repetitive Animation (will soon be updated with more randomness)
+
 ## Author
 
-wfltaylor@gmail.com, wfltaylor@gmail.com
+William Taylor
 
 ## License
 

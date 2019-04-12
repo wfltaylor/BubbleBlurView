@@ -1,0 +1,16 @@
+PODS:
+  - BubbleBlurView (0.1.0)
+
+DEPENDENCIES:
+  - BubbleBlurView (from `../`)
+
+EXTERNAL SOURCES:
+  BubbleBlurView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BubbleBlurView: 75283b4f7ceb711e28fc8d43900972c9c4964d1f
+
+PODFILE CHECKSUM: 327de716c11a95b0950af01c97ccce3450995730
+
+COCOAPODS: 1.6.1

@@ -1,0 +1,22 @@
+{
+  "name": "BubbleBlurView",
+  "version": "0.1.0",
+  "summary": "A short description of BubbleBlurView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/wfltaylor@gmail.com/BubbleBlurView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "wfltaylor@gmail.com": "wfltaylor@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/wfltaylor@gmail.com/BubbleBlurView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "BubbleBlurView/Classes/**/*"
+}

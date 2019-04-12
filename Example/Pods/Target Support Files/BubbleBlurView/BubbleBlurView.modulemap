@@ -1,0 +1,6 @@
+framework module BubbleBlurView {
+  umbrella header "BubbleBlurView-umbrella.h"
+
+  export *
+  module * { export * }
+}
