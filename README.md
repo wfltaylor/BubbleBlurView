@@ -1,4 +1,4 @@
-![BubbleBlurView](https://raw.githubusercontent.com/wfltaylor/BubbleBlurView/master/logo.png)
+![BubbleBlurView](https://raw.githubusercontent.com/wfltaylor/BubbleBlurView/master/Logo.png)
 
 [![Version](https://img.shields.io/cocoapods/v/BubbleBlurView.svg?style=flat)](https://cocoapods.org/pods/BubbleBlurView)
 [![License](https://img.shields.io/cocoapods/l/BubbleBlurView.svg?style=flat)](https://cocoapods.org/pods/BubbleBlurView)
@@ -12,7 +12,15 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Getting Started
 
-William Taylor
+Simply create a view and call startBubbles when you are ready to start the animation.
+
+```swift
+let bubbleView = BubbleBlurView()
+
+bubbleView.startBubbles()
+```
+
+See example for more details.
 
 ## Installation
 
