@@ -43,6 +43,7 @@ open class BubbleBlurView: UIView {
         path.fill()
         
         context?.draw(createBubbbleImage(), in: rect)
+        super.draw(rect)
     }
     
     open override func layoutSubviews() {

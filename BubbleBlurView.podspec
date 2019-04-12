@@ -8,10 +8,10 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BubbleBlurView'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'An Apple Card like background effect view'
   s.description      = <<-DESC
-BubbleBlurView is a UIView that provides an Apple Card style effect.
+BubbleBlurView is a UIView that provides an Apple Card style dynamic effect.
                        DESC
 
   s.homepage         = 'https://github.com/wfltaylor/BubbleBlurView'
