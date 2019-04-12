@@ -18,7 +18,7 @@ BubbleBlurView is a UIView that provides an Apple Card style effect.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'William Taylor' => 'wfltaylor@gmail.com' }
-  s.source           = { :git => 'https://github.com/wfltaylor@gmail.com/BubbleBlurView.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/wfltaylor/BubbleBlurView.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
