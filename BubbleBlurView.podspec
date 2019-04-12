@@ -8,13 +8,13 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BubbleBlurView'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'An Apple Card like background effect view'
   s.description      = <<-DESC
 BubbleBlurView is a UIView that provides an Apple Card style effect.
                        DESC
 
-  s.homepage         = 'https://github.com/wfltaylor@gmail.com/BubbleBlurView'
+  s.homepage         = 'https://github.com/wfltaylor/BubbleBlurView'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'William Taylor' => 'wfltaylor@gmail.com' }
